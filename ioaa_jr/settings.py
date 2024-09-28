@@ -40,7 +40,7 @@ ROOT_URLCONF = 'ioaa_jr.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'event_app', 'templates')],  # Adjust this path as needed
+        'DIRS': [BASE_DIR/'templates'],  # Adjust this path as needed
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
