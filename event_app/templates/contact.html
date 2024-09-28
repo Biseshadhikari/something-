@@ -1,0 +1,73 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - IOAA-Jr 2024</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #002D62; color: white;">
+
+  <!-- Navigation Bar -->
+  <header style="background-color: #6b21a8; color: white; box-shadow: 0px 1px 3px rgba(0,0,0,0.3);">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="navbar-brand"></div>
+        <h1 class="text-3xl font-bold">IOAA-Jr 2024</h1>
+        <p class="text-lg font-light tracking-widest">NEPAL</p>
+      </div>
+      <ul class="nav-links flex space-x-8 ml-auto"></ul>
+        <li><a href="/" class="nav-link text-lg font-semibold text-white hover:text-teal-400">Home</a></li>
+        <li><a href="/login" class="nav-link text-lg font-semibold text-white hover:text-teal-400">Login</a></li>
+        <li><a href="/details" class="nav-link text-lg font-semibold text-white hover:text-teal-400">Details</a></li>
+        <li><a href="/contact" class="nav-link text-lg font-semibold text-white hover:text-teal-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section text-white" style="background-color: rgba(255, 255, 255, 0.1); padding: 50px 0; border-radius: 10px;">
+    <div class="container mx-auto text-center" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 10px; padding: 20px;">
+      <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
+      <p class="text-xl mb-6">You can reach out to us via the following channels:</p>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-semibold">Official NASO Website:</h2>
+        <p>
+          <a href="https://www.nepalastronomicalsociety.org/" target="_blank" class="underline hover:text-teal-400" style="color: #00CED1;"></a>
+            www.nepalastronomicalsociety.org
+          </a>
+        </p>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-semibold">Official IOAA-Jr. 2024 Website:</h2>
+        <p>
+          <a href="https://ioaajr2024.org/" target="_blank" class="underline hover:text-teal-400" style="color: #00CED1;"></a>
+            www.ioaajr2024.org
+          </a>
+        </p>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-semibold">For Technical Support:</h2>
+        <p>Email: <a href="mailto:suwarnapyakurel5@gmail.com" class="underline hover:text-teal-400" style="color: #00CED1;">suwarnapyakurel5@gmail.com</a></p>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-semibold">Emergency Contact:</h2>
+        <p>Call Us (Urgent Only) at 
+          <button onclick="window.location.href='tel:9840036060'" class="underline hover:text-teal-400" style="color: #00CED1;">Call</button>
+        </p>
+      </div>
+        </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: #6b21a8; color: white; position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; padding: 12px 0;">
+    <p class="text-sm">© 2024 Suwarna Pyakurel and Nepal Astronomical Society</p>
+  </footer>
+
+</body>
+</html>
